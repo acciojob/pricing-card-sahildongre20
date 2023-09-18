@@ -1,1 +1,44 @@
 /*  your css code here. If applicable */
+:root{
+	width:100%;
+	margin:auto;
+	display:flex;
+	align-item:center;
+	justify-content: center;
+	text-align:center;
+}
+img{
+	width: 300px;
+	margin-top: 50px;
+}
+.container{
+	flex-direction:column;
+	width:400px;
+	padding:10px;
+	box-shadow: 5px 5px 15px lightgray;
+	background-color: #f1f1f1ff;
+	border-radius: 5px;
+	margin-top:60px;
+	margin-bottom:50px;
+	
+}
+h1{
+	font-size:50px;
+	margin:0;
+}
+p{
+	font-size: 25px;
+	margin:0 75px;
+	width:250px;
+	font-weight: 900;
+}
+button{
+	margin-top:30px;
+	padding: 20px;
+	font-size:30px;
+	color:white;
+	background-color: #fe625aff;
+	border:none;
+	border-radius: 20px;
+	margin-bottom: 30px;
+}
